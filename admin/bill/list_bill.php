@@ -20,8 +20,7 @@
                             foreach ($list_bill as $key) {
                                 extract($key);
                                 $suasp = "index.php?act=suabill&id_bill=".$key["id_bill"];
-                                $xoasp = "index.php?act=xoabill&id_bill=".$key["id_bill"];
-                                
+
                                 $slhang = dem_sl_mat_hang($key["id_bill"]);
                                 $status_product = get_ttdh($key["status_bill"]);
                                 echo '
@@ -34,11 +33,9 @@
                                 <td>' . $key["ngaydathang"] .'</td>                                
                                 <td>
                                 <a href="'.$suasp.'">
-                                <input type="button" value="Sửa" class="check" style="color: #fff;background-color: #28b779;border-color: #28b779; border-radius: 2px; width: 60px; height: 35px; cursor: pointer;">
+                                <input type="button" value="chi tiết" class="check" style="color: #fff;background-color: #28b779;border-color: #28b779; border-radius: 2px; width: 60px; height: 35px; cursor: pointer;">
                                 </a>
-                                <a href="'.$xoasp.'">
-                                <input style="color: #fff;background-color: #da542e;border-color: #da542e; border-radius: 2px; width: 60px; height: 35px; cursor: pointer ;"  type="button" value="Xóa" class="check">
-                                </a>
+                           
                                 </td>
                                 
                             </tr>

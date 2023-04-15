@@ -68,8 +68,11 @@
                   $checktk = checklogin($name_tk,$pass_tk);
                   if ($checktk) {
                      $_SESSION['user'] = $checktk;
-                     $thongbao = "Đăng nhập thành công";
+                     echo "<script> alert('đăng nhập thành công')</script";
                      include "font_end/login-register.php";
+                     $yourURL="http://localhost/du_an_one/du_an_one//index.php?act=go_home"; 
+                     echo ("<script>location.href='$yourURL'</script>");
+                     
                   }else{
                      $thongbao = "Đăng nhập Thất bại xin vui lòng nhập lại";
                      include "font_end/login-register.php";
@@ -98,7 +101,8 @@
             case 'log_out':
                session_unset();
                include "font_end/my-account.php";
-               
+               $yourURL="http://localhost/du_an_one/du_an_one//index.php?act=go_home"; 
+               echo ("<script>location.href='$yourURL'</script>");
                break;
             case 'dohang':
                include "font_end/dohang.php";

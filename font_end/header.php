@@ -68,8 +68,8 @@
                 <div class="col-md-7 col-lg-6 mt-xs-10">
                     <div class="site-setting-menu">
                         <ul class="nav justify-content-center justify-content-md-end">
-                            <li><a href="index.php?act=myaccount">Tài khoản của tôi</a></li>
-                            <li><a href="index.php?act=login">Đăng nhập</a></li>
+                            <li><a href="index.php?act=myaccount"<?php echo isset($_SESSION['user'])? "" : "hidden"  ?>>Tài khoản của tôi</a></li>
+                            <li><a href="index.php?act=login"<?php echo isset($_SESSION['user'])? "hidden" : ""  ?> >Đăng nhập</a></li>
                         </ul>
                     </div>
                 </div>

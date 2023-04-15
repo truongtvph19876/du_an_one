@@ -49,7 +49,7 @@
                                 <td>' . $name_sp .'</td>
                                 <td>' . $img_sp .'</td>
                                 <td>' . $price_sp .'</td>
-                                <td>' . $mota_sp .'</td>
+                                <td style="font: size 5px;">' . $mota_sp .'</td>
                                 <td><a href="'.$suasp.'"><input type="button" value="Sửa" class="check"></a> <a href="'.$xoasp.'"><input type="button" value="Xóa" class="check"></a></td>
                             </tr>
                                 ';

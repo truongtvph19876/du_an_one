@@ -116,13 +116,17 @@
                include "font_end/home.php";
                break;
             case 'delete_cart':
+               // echo 123;
+               // return;
+
                if (isset($_GET['idcart'])) {
                   array_splice($_SESSION['mua_cart'],$_GET['idcart'],1);
                }else{
                   $_SESSION['mua_cart'] = [];
                }
-               $yourURL="http://localhost/Du_An_1/back_end/matrix-admin-master/index.php?act=dohang";
+               $yourURL="http://localhost/du_an_one/du_an_one//index.php?act=dohang"; 
                echo ("<script>location.href='$yourURL'</script>");
+               
                break;
             case 'dat_hang':
 

@@ -29,7 +29,8 @@
                                     $hinh = "upload/".$cart[2];
                                     $ttien = $cart[3] * $cart[4];
                                     $format_number_1 = number_format($cart[3]);
-                                    $xoa_cart = '<a href="index.php?act=delete_cart&idcart='.$i.'"><input type="button" value="Xóa"></a>';
+                                    $xoa_cart = '<a href="index.php?act=delete_cart&idcart='.$i.'">
+                                    <button onclick="return confirm(`Chắc chắn xóa sản phẩm này khỏi giỏ hàng?`)" type="button">Xóa</button></a>';
                                     echo '
                                     <tr>
                                     <td class="pro-thumbnail"><img class="img-fluid" src="'.$hinh.'"

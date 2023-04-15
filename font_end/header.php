@@ -108,7 +108,7 @@
 
                 <!-- Mini Cart Area Start -->
                 <div class="col-12 col-md-3 col-xl-2 m-auto text-center text-lg-right mt-xs-15" style="width: 220px">
-                <div style="width: 20px; height: 20px; background-color: #F5EBE0; color: black; position: absolute; z-index: 1; margin-left: 90px; border-radius: 50px;">
+                <div style=" background-color: #F5EBE0; color: black; position: absolute; ">
                 
                 </div>
                     <div class="minicart-wrapper" style="display: flex; position: relative;">

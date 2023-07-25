@@ -32,7 +32,8 @@
                             <th>MÔ TẢ</th>
                             <th>SỰ KIỆN</th>
                         </tr>
-                        <?php 
+                        <?php
+
                             foreach ($listsanpham as $key) {
                                 extract($key);
                                 $suasp = "index.php?act=suasp&id_sp=".$id_sp;
@@ -50,7 +51,9 @@
                                 <td>' . $img_sp .'</td>
                                 <td>' . $price_sp .'</td>
                                 <td style="font: size 5px;">' . $mota_sp .'</td>
-                                <td><a href="'.$suasp.'"><input type="button" value="Sửa" class="check"></a> <a href="'.$xoasp.'"><input type="button" value="Xóa" class="check"></a></td>
+                                <td>
+                                <a href="'.$suasp.'"><input type="button" value="Sửa" class="check"></a> 
+                                <a onclick="return confirm(`Xác nhận xóa sản phẩm này`)" href="'.$xoasp.'"><input type="button" value="Xóa" class="check"></a></td>
                             </tr>
                                 ';
                             }

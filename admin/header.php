@@ -152,7 +152,7 @@
                                                     <span class="btn btn-success btn-circle"><i class="ti-calendar"></i></span>
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Event today</h5> 
-                                                        <span class="mail-desc">Just a reminder that event</span> 
+                                                        <span class="mail-desc">Just a reminde  that event</span> 
                                                     </div>
                                                 </div>
                                             </a>
@@ -162,7 +162,7 @@
                                                     <span class="btn btn-info btn-circle"><i class="ti-settings"></i></span>
                                                     <div class="m-l-10">
                                                         <h5 class="m-b-0">Settings</h5> 
-                                                        <span class="mail-desc">You can customize this template</span> 
+                                                        <span class="mail-desc">You can customize  this template</span> 
                                                     </div>
                                                 </div>
                                             </a>

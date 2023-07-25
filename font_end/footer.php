@@ -14,11 +14,11 @@
                             <h3 class="widget-title">Về thị trường</h3>
                             <div class="widget-body">
                                 <ul class="footer-list">
-                                    <li><a href="index.php?act=myaccount">Tài khoản của tôi</a></li>
+                                 
                                     <li><a href="index.php?act=load_bill">lịch sử đơn hàng</a></li>
                                     <li><a href="#">trả lại</a></li>
                                     <li><a href="#">đặc biệt</a></li>
-                                    <li><a href="#">Sơ đồ trang web</a></li>
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -33,9 +33,9 @@
                                 <ul class="footer-list">
                                     <li><a href="#">trả lại</a></li>
                                     <li><a href="index.php?act=load_bill">lịch sử đơn hàng</a></li>
-                                    <li><a href="index.php?act=myaccount">Tài khoản của tôi</a></li>
-                                    <li><a href="#">Sơ đồ trang web</a></li>
-                                    <li><a href="#">đặc biệt</a></li>
+                                  
+                                   
+                               
                                 </ul>
                             </div>
                         </div>
@@ -51,8 +51,8 @@
                                     <li><a href="index.php?act=myaccount">Tài khoản của tôi</a></li>
                                     <li><a href="#">trả lại</a></li>
                                     <li><a href="index.php?act=load_bill">lịch sử đơn hàng</a></li>
-                                    <li><a href="#">Sơ đồ trang web</a></li>
-                                    <li><a href="#">đặc biệt</a></li>
+                                  
+                              
                                 </ul>
                             </div>
                         </div>

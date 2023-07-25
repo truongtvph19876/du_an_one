@@ -84,7 +84,7 @@
             <div class="row">
                 <!-- Logo Area Start -->
                 <div class="col-4 col-md-2 col-xl-3 m-auto text-center text-lg-left">
-                    <a href="http://localhost/aba/Du_An_main/" class="logo-wrap d-block">
+                    <a href="index.php?act=go_home" class="logo-wrap d-block">
                         <img src="assets_fontend/img/logo3.jpg" alt="Logo" class="img-fluid"/ width="150px" height="150px">
                         
                     </a>

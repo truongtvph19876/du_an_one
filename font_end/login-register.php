@@ -23,7 +23,7 @@
                 <!-- Login Content Start -->
                 <div class="col-lg-5">
                     <div class="login-reg-form-wrap  pr-lg-50">
-                        <h2>Đã là thành viên chưa?</h2>
+                        <h2>Đăng Nhập</h2>
                         <?php 
                              if (isset($_SESSION['user'])) {
                                 extract($_SESSION['user']);
@@ -37,11 +37,11 @@
                                   -webkit-transition: all 0.4s ease-out;
                                   transition: all 0.4s ease-out;
                                   width: 100%;" type="text" 
-                                  name="name_tk" placeholder="Nhập Tên" required/>
+                                  name="name_tk" placeholder="Tên đăng nhập" autofocus required/>
                             </div>
 
                             <div class="single-input-item">
-                                <input type="password" name="pass_tk" placeholder="Nhập Password" required/>
+                                <input type="password" name="pass_tk" placeholder="Mật khẩu" required/>
                             </div>
 
                             <div class="single-input-item">
